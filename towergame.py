@@ -25,7 +25,7 @@ class Stats:
         self.money = self.money + change
 
     def updateMoney(self):
-        self.canvas.itemconfig(self.money_text, tex=f"Money:  {self.money}")
+        self.canvas.itemconfig(self.money_text, text=f"Money:  {self.money}")
 
     def getLife(self):
         return self.life
@@ -34,7 +34,7 @@ class Stats:
         self.life = self.life + change
 
     def updateLife(self):
-        self.canvas.itemconfig(self.life_text, tex=f"Life:  {self.life}")
+        self.canvas.itemconfig(self.life_text, text=f"Life:  {self.life}")
 
 class Block:
     def __init__(self, canvas, id) -> None:

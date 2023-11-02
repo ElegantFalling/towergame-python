@@ -1,3 +1,9 @@
-[gd_scene format=3 uid="uid://bti4ycjejst4f"]
+[gd_scene load_steps=3 format=3 uid="uid://bti4ycjejst4f"]
+
+[ext_resource type="Script" path="res://world.gd" id="1_q03nx"]
+[ext_resource type="PackedScene" uid="uid://7arkxbdk1rq3" path="res://Tower/Tower.tscn" id="2_i83fw"]
 
 [node name="World" type="Node2D"]
+script = ExtResource("1_q03nx")
+
+[node name="Tower" parent="." instance=ExtResource("2_i83fw")]

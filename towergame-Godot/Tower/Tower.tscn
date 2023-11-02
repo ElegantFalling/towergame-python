@@ -1,8 +1,18 @@
-[gd_scene load_steps=2 format=3 uid="uid://7arkxbdk1rq3"]
+[gd_scene load_steps=5 format=3 uid="uid://7arkxbdk1rq3"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_uy0t1"]
+[ext_resource type="Texture2D" uid="uid://c3n3o2n1covjt" path="res://tower_base.png" id="1_7vgw8"]
+[ext_resource type="Script" path="res://Tower/Tower.gd" id="2_yeqqw"]
+[ext_resource type="Script" path="res://Tower/TowerArea.gd" id="3_wboq2"]
+[ext_resource type="Script" path="res://Tower/TowerCollision.gd" id="4_2bw3t"]
 
-[node name="Tower" type="CharacterBody2D"]
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(200, 200)
+texture = ExtResource("1_7vgw8")
+script = ExtResource("2_yeqqw")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_uy0t1")
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("3_wboq2")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+polygon = PackedVector2Array(0, -48, 0, -48, 48, -16, 48, 16, 0, 48, -48, 16, -48, -16)
+script = ExtResource("4_2bw3t")

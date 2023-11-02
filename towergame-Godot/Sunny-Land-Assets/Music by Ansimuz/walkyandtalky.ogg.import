@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bopr0wxolr80"
+path="res://.godot/imported/walkyandtalky.ogg-394e855bbb232bdba80cf5231a9e42ac.oggvorbisstr"
+
+[deps]
+
+source_file="res://Sunny-Land-Assets/Music by Ansimuz/walkyandtalky.ogg"
+dest_files=["res://.godot/imported/walkyandtalky.ogg-394e855bbb232bdba80cf5231a9e42ac.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

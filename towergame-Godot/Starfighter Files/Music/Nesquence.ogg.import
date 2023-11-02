@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b05yk0t2svbqd"
+path="res://.godot/imported/Nesquence.ogg-a40fcfc9912fb43b1b509f496df33557.oggvorbisstr"
+
+[deps]
+
+source_file="res://Starfighter Files/Music/Nesquence.ogg"
+dest_files=["res://.godot/imported/Nesquence.ogg-a40fcfc9912fb43b1b509f496df33557.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

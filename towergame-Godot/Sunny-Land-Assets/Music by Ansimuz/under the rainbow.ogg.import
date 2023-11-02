@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://foipx28b50jt"
+path="res://.godot/imported/under the rainbow.ogg-2f82dee18eaccbe411bfd08dcf003cdf.oggvorbisstr"
+
+[deps]
+
+source_file="res://Sunny-Land-Assets/Music by Ansimuz/under the rainbow.ogg"
+dest_files=["res://.godot/imported/under the rainbow.ogg-2f82dee18eaccbe411bfd08dcf003cdf.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
